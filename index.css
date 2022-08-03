@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom,rgb(25, 221, 235),rgb(77, 68, 197) ,rgb(245, 126, 181));
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+/* log in box design */
+.login{
+    position: relative;
+left: 40%;
+top: 15%;
+border: 1px solid white;
+padding: 20px;
+width: 300px;
+height: 450px;
+background-color: white;
+border-radius: 10px;
+}
+.login h1{
+    left: 30%;
+    top: 3%;
+    position: absolute;
+    text-transform: uppercase;
+}
+/* input  align */
+.input{
+    top: 15%;
+    position: absolute;
+}
+.input .text{
+    margin-bottom: 10px;
+   
+}
+.input i{
+    color:rgb(255, 0, 0);
+}
+.input p{
+    margin-bottom: 7px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.input .pwd{
+    margin-bottom: 20px;
+}
+/* input design */
+.input input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(17, 16, 16);
+    outline: none;
+background-color: white;    height: 40px;
+    width: 300;
+    color: rgb(24, 21, 21);
+    font-size: 16px;
+}
+/* button design */
+.btn{
+    top: 60%;
+    left: 20%;
+    position: absolute;
+    border: 1px solid black;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 20px;
+    background-image: linear-gradient( to right, rgb(80, 226, 245), rgb(166, 252, 166));
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+} 
+/* forgot password align */
+.input a{
+    right:  5%;
+    position: absolute;
+    font-size: 20px;
+    
+}
+/* sign up 1 align */
+.sign{
+    top:71% ;
+    left: 30%;
+    position: absolute;
+    font-weight: bold;
+}
+/* fas fa align */
+.sign i{
+    width: 50px;
+    margin-top: 10px;
+    font-size: 30px;   
+    color:black;
+}
+/* sign up 2 align */
+.log{
+    top:85% ;
+    left: 25%;
+    position: absolute;
+}
+.log p {
+    margin-top: 10px;
+ text-decoration: none;
+ font-weight: bold;
+
+}
+.log a{
+    text-decoration: none;
+    left: 25%;
+    position: absolute;
+}
+
