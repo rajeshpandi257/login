@@ -7,10 +7,11 @@ body{
     background-image: linear-gradient(to bottom,rgb(25, 221, 235),rgb(77, 68, 197) ,rgb(245, 126, 181));
     background-repeat: no-repeat;
     background-size: cover; 
+     position: relative;
 }
 /* log in box design */
 .login{
-    position: relative;
+   
 left: 40%;
 top: 25%;
 border: 1px solid white;
